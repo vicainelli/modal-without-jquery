@@ -11,9 +11,21 @@
 </head>
 <body>
 
+<div class="overlay is-hidden" id="overlay">
+	<div class="modal-content">
+		<span class="button-close" onclick="closeModal();"></span>
+
+		<h3>Lorem ipsum dolor sit amet.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus itaque eligendi, laboriosam accusamus sunt amet ipsum minus.</p>
+			<p>Repudiandae illo atque alias beatae reprehenderit tenetur temporibus quidem! Vitae fuga, expedita alias et illo laudantium voluptate.</p>
+			<p>Dolore aut voluptatum illum atque perferendis ut corporis error maxime recusandae magnam, vero laborum, provident maiores quo!</p>
+			<p>In voluptates, aperiam ipsa incidunt iure reprehenderit? Incidunt quod et tempora ea asperiores, necessitatibus tempore dolor ipsum.</p>
+	</div>
+</div>
+
 <div class="center">
 	<h1 class="page-title">Modal Wihout jQuery</h1>
-	<p><a class="button button-primary" href="#">Open modal</a></p>
+	<p><a class="button button-primary" onclick="openModal();" href="#">Open modal</a></p>
 </div>
 <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
